@@ -4,8 +4,13 @@
   "description": "Get Relative Path - from tar file to src file",
   "version": "0.0.1",
   "publisher": "ruokuanwu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruokuanwu/getRelativePath.git"
+  },
   "engines": {
-    "vscode": "^1.4.0"
+    "vscode": "^1.34.0"
   },
   "categories": [
     "Other"
@@ -18,7 +23,7 @@
     "commands": [
       {
         "command": "extension.getRelativePath",
-        "title": "get rPath"
+        "title": "get relative path"
       }
     ],
     "menus": {

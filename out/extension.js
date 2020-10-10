@@ -53,7 +53,7 @@ function getRelativePath(src, tar) {
     return ret.join('/');
 }
 function activate(context) {
-    var disposable = vscode.commands.registerCommand('extension.copyRelativePath', function (tar_uri) {
+    var disposable = vscode.commands.registerCommand('extension.getRelativePath', function (tar_uri) {
         var _a;
         if (typeof tar_uri === null) {
             return;
